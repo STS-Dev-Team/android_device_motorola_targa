@@ -13,6 +13,4 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_PAGE_SIZE := 0x4096
 
 # Kernel Build
-TARGET_KERNEL_SOURCE := kernel/motorola/omap4-kexec-common
-TARGET_KERNEL_CONFIG := mapphone_targa_defconfig
-
+TARGET_KERNEL_VARIANT_CONFIG := mapphone_targa_defconfig
